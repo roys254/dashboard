@@ -34,6 +34,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <input type="password" name="password" placeholder="Password" class="w-full mb-2 p-2 rounded bg-gray-700" required />
             <button class="bg-blue-600 px-4 py-2 rounded w-full">Login</button>
         </form>
+
     </div>
+    <p class="mt-4 text-sm text-gray-400">Don't have an account? <a href="signup.php" class="text-blue-400">Sign up</a></p>
+
 </body>
 </html>
